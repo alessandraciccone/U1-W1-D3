@@ -5,6 +5,50 @@ main p{
     text-align: justify;
 }
 
+/*selettore di discendenza*/
+
 body{
     background-color: rgb(114, 115, 115);
+}
+
+/*il carattere . mi permette di selezionare gli elemenmti grazie alla loro classe */
+
+.giusto{
+    font-weight: bold;
+}
+
+h4{
+    color:red
+}
+
+h4{
+    color:green
+}
+
+/* vince il green perchè è l'ultimo inserito*/
+
+.dog{
+ 
+    color:blue
+}
+
+/* la classe.dog, nonostamte sia unm h4, e quindi nopnostante ci siano due colori del titolo, vince in quanto la classe ha specificità maggiore del semplice tag*/
+
+#secondo{
+    background-color: chartreuse;
+}
+
+/*l'attributo ID è unico per ogni elemento. non si può dare lo stesso ID a più elementi*/
+
+/*si possono comboinare vari elementi in css per dare la caratteristica*/
+
+li .giusto{
+    color:brown
+}
+
+/* non mettere lo spazio tra li e .giusto significa che sono elementi li dotati della classe giusto, quindi è lo stesso elemento*/
+
+
+li.giusto{
+    text-shadow: blueviolet;
 }

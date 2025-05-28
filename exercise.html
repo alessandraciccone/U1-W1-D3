@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise css</title>
+    <!--approccio incorporato-->
+    <style>
+      a {
+        font-size: 0.8em;
+        text-decoration: none;
+        color: black;
+      }
+      /* i commenti in css si fanno in questo modo*/
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      header li {
+        text-align: center;
+      }
+
+      h2,
+      h3 {
+        letter-spacing: 3px;
+      }
+    </style>
+    <!--approccio 3 esterno da collegare-->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <!--approccio oinline css-->
+      <h1 style="text-align: center; color: red">Fondamenti di css</h1>
+      <nav>
+        <ul>
+          <li><a href="epicode.com">Epicode</a></li>
+          <li><a href="mdm.com">MDM</a></li>
+          <li><a href="#">WM Css </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>come fare regole css</h2>
+        <ol>
+          <li>css inline</li>
+          <li>css incorporato</li>
+          <li>css esterno</li>
+        </ol>
+      </section>
+      <section>
+        <h3>paragrafi</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nostrum
+          amet accusantium dolorum officia saepe ullam rem expedita sint nam
+          nesciunt quo, odio illum deleniti esse quae quisquam consectetur
+          atque!
+        </p>
+      </section>
+      <section>
+        <h3>paragrafi</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nostrum
+          amet accusantium dolorum officia saepe ullam rem expedita sint nam
+          nesciunt quo, odio illum deleniti esse quae quisquam consectetur
+          atque!
+        </p>
+      </section>
+      <section>
+        <h4>cani</h4>
+        <img src="https://placedog.net/500" alt="cagnolino" />
+      </section>
+    </main>
+    <footer><p>Alessandra C. 2025</p></footer>
+  </body>
+</html>
